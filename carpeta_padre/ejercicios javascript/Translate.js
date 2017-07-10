@@ -21,3 +21,8 @@ function isVowel (char) {
 }
 
 translate('hello')
+
+// way 2
+function translate (text) {
+  return text.replace(/[b-df-hj-np-tv-z]/g, '$&o$&')
+}
