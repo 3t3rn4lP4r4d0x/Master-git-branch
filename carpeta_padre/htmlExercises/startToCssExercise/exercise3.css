@@ -1,0 +1,30 @@
+body {
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
+header {
+    background-color: grey;
+    height: 100px;
+}
+
+aside {
+    background-color: black;
+    float: left;
+    width: 25%;
+    height: 500px;
+}
+
+section {
+    background-color: #EEE8E8;
+    height: 500px;
+    float: right;
+    width: 75%;
+}
+
+footer {
+    background-color: grey;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}

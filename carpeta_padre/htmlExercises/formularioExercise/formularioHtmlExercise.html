@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>A Simple Form</h1>
+    <h2>Form Fundamentals</h2>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Customer Info</legend>
+        <label for="Name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" autofocus required>
+        <br><br>
+        <label for="Tel">Telephone:</label>
+        <input type="tel" name="Tel" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br><br>
+        <label for="mail">Email adress:</label>
+        <input type="email" name="mail" placeholder="Enter your email adress" required>
+      </fieldset>
+      <fieldset>
+        <legend list="numberList">Books</legend>
+        <datalist id="numberList">
+          <option>Moby Dick</option>
+          <option>1984</option>
+          <option>El Quijote</option>
+          <option>El Lazarillo de Tormes</option>
+          <option>Fortaleza Digital</option>
+          <option>Inferno</option>
+        </datalist>
+        <input type="text" list="numberList">
+        <label for="">Quantity (Maximum 5):</label>
+        <select class="" name="select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+      </fieldset>
+      <button>Submit</button>
+    </form>
+    <p>	&#9400; 2011 Acme United. All rights reserved.</p>
+
+  </body>
+</html>

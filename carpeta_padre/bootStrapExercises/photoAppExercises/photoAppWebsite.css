@@ -1,0 +1,64 @@
+
+/**{
+	border: 1px solid red ;
+}*/
+
+
+a.navbar-brand.gamma {
+	color: #1caa98;
+}
+
+body > div > div > div > div > div:nth-child(2) > img { 
+	background: transparent;
+	border: none;
+	 }
+
+body > div > div > div > div:nth-child(1) > h1 {
+	color: white;
+}
+p.lead {
+	color: white;
+}
+
+body > div > div > div > div > div:nth-child(1) > p {
+	color: white;
+}
+
+span{
+	color: #1caa98;
+}
+
+.navbar{
+	margin: 0;
+}
+
+a.navbar-brand.gamma{
+color: #1caa98;
+}
+
+
+.h3{
+	color:white;
+}
+
+.paragraph1{
+	color: white;
+}
+
+.cover{
+	min-height: 400px;
+	background: url('./img/site_showcase_bg.jpg') ;
+}
+
+.box{
+    min-height: 221px;
+    display: flex;
+    align-items: flex-center;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+
+y{
+	color:#1caa98;
+}

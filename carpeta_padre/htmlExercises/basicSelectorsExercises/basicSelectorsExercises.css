@@ -1,0 +1,69 @@
+body{
+	background-image: url(https://github.com/juanmaguitar/CSS3-challenges/blob/master/03-basic-selectors/materials/images/bg_page.png?raw=true);
+	clear : both;
+	margin: 0 auto;
+	background-position: center;
+	width:50%;
+}
+
+body img{
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1{
+	color:#cf9026;
+	font-weight: bold;
+
+}
+
+ p.paragraph1 {
+	color: #ff7d44;
+}
+
+p.note{
+	background-color:yellow;
+	border:  2px dashed brown;
+}
+
+strong.NOTE{
+font-weight: bold;
+color: red;
+}
+
+p.Separator1{
+	color green;
+	width: 100%;
+}
+
+h2{
+	color:#cf9026;
+}
+
+p.note2{
+	background-color:yellow;
+	border:  2px dashed brown;
+}
+
+strong.NOTE2{
+font-weight: bold;
+color: red;
+}
+
+p.Separator2{
+	color green;
+	width: 100%;
+}
+
+h3{
+	color:#cf9026;
+}
+
+h4{
+	color:#cf9026;
+}
+
+p.Separator3{
+	color green;
+	width: 100%;
+}
