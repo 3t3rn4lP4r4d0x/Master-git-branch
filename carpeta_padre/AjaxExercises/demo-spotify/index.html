@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/superhero/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <h1>SpotyFinder 🎶</h1>
+        </div>
+        <div class="jumbotron">
+            <form id="search-artist" action="#">
+                <h1>Artist Search</h1>
+                <div class="input-group">
+                    <input value="beatles" type="text" class="input-lg form-control" placeholder="Search for an artist...">
+                    <span class="input-group-btn">
+                    <button class="input-lg btn btn-default" type="button">Buscar!</button>
+                </span>
+                </div>
+                <!-- /input-group -->
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div id="artists-selection" class="hidden jumbotron artists-selection">
+                    <div class="container">
+                        <h2>Artists Selection</h2>
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="albums-selection" class="hidden jumbotron albums-selection">
+                    <div class="container">
+                        <h2>Albums Selection</h2>
+                        <select></select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="tracks-list" class="hidden jumbotron tracks-list">
+                    <div class="container">
+                        <h2>Tracks List</h2>
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <footer class="footer">
+            <p>&copy; 2016 Company, Inc.</p>
+        </footer> -->
+    </div>
+    <!-- /container -->
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

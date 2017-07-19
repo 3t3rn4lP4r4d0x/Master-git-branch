@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <button>Click Me!</button>
+  <ul></ul>
+
+  <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript">
+
+
+    $('button').on('click', function() {
+
+      $.ajax({
+        url: 'youtube.json'
+      })
+      .then( function(youtubedata) {
+        console.log(youtubedata)
+        var titlevideo=youtubedata.data.items[0].title
+        console.log(titlevideo)
+        var
+      })
+
+    })
+
+
+  </script>
+</body>
+</html>

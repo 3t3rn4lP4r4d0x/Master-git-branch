@@ -1,0 +1,61 @@
+.intro {
+    font-size: 24px;
+}
+
+.name {
+    color: #3a7fba;
+}
+
+.picturephoto {
+    margin-left: 43%;
+}
+
+
+h4 {
+    color: #3a7fba;
+}
+
+.service1 {
+    color: #6dd83e;
+    background-color: rgba(188, 224, 173, 0.8);
+}
+
+.service2 {
+    color: #3b2be5;
+    background-color: rgba(15, 216, 252, 0.8);
+}
+
+.service3 {
+    color: #6dd83e;
+    background-color: rgba(188, 224, 173, 0.8);
+}
+
+
+.service4 {
+    color: #3b2be5;
+    background-color: rgba(15, 216, 252, 0.8);
+}
+
+.service5 {
+    color: #6dd83e;
+    background-color: rgba(188, 224, 173, 0.8);
+}
+
+.service6 {
+    color: #3b2be5;
+    background-color: rgba(15, 216, 252, 0.8);
+}
+
+.navbar-brand {}
+
+.COPY {
+    margin-left: 10px
+}
+
+.nav-nav {
+    margin-left: 100px;
+}
+
+body>footer>nav>div {
+    color: darkblue;
+}

@@ -29,8 +29,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href=".\photoAppWebsite.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href=".\about.html">About</a></li>
-                    <li><a href=".\contact.html">Contact</a></li>
+                    <li class="active"><a href=".\about.html">About</a></li>
+                    <li class="active"><a href=".\contact.html">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -38,64 +38,40 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- @end navbar -->
-    <div class="cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1 class="a">Capture <span>Life</span></h1>
-                    <p class="lead">A fun and easy way to capture & share the moments you live for</p>
-                    <div class="row box">
-                        <div class="col-md-6 apple">
-                            <img class="img-responsive" src="img/icon_app_store.png">
-                        </div>
-                        <div class="col-md-6 android">
-                            <img class="img-responsive" src="img/icon_google_play.png">
-                        </div>
+    <!-- @end cover -->
+    <div class="col-sm-12">
+        <h4 class="GAMMA">Contact Us</h4>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <p>Name</p>
+                    <input type="text" class="form-control" placeholder="Enter Name" aria-describedby="basic-addon1" required=""></br>
+                    <p> Company Name</p>
+                    <input type="text" class="form-control" placeholder="Enter Company Name" aria-describedby="basic-addon1" required=""></br>
+                    <p>Email</p>
+                    <input type="email" class="form-control" placeholder="Enter Email" aria-describedby="basic-addon1" required=""></br>
+                    <p>Message</p>
+                    <input type="textarea" class="form-control" placeholder="Enter Message" aria-describedby="basic-addon1">
+                    </br>
+                    <input class="btn btn-default" type="button" onclick="alert('Thank you for sending this message,we will answer you later')" value="Submit">
+                </form>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail ">
+                    <img src="img/demo2.jpg " alt="Generic placeholder thumbnail" class="img-responsive">
+                    <div class="caption ">
+                        <h3>jargonium</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="# " class="btn btn-default " role="button ">read more</a>
                     </div>
-                </div>
-                <div class="col-md-6 hidden-xs">
-                    <img class="img-responsive" src="img/site_phone.png">
                 </div>
             </div>
         </div>
     </div>
-    <!-- @end cover -->
-    <div class="container">
-        <div class="gallery">
-            <div class="row">
-                <div class="col-sm-6 col-md-4 ">
-                    <div class="thumbnail ">
-                        <img src="img/demo1.jpg " alt="Generic placeholder thumbnail" class="img-responsive">
-                    </div>
-                    <div class="caption ">
-                        <h3>jargonium</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                        <a href="# " class="btn btn-default " role="button ">read more</a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 ">
-                    <div class="thumbnail ">
-                        <img src="img/demo2.jpg " alt="Generic placeholder thumbnail" class="img-responsive">
-                    </div>
-                    <div class="caption ">
-                        <h3>jargonium</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <a href="# " class="btn btn-default " role="button ">read more</a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 ">
-                    <div class="thumbnail ">
-                        <img src="img/demo3.jpg " alt="Generic placeholder thumbnail" class="img-responsive">
-                    </div>
-                    <div class="caption ">
-                        <h3>jargonium</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <a href="# " class="btn btn-default " role="button ">read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end gallery -->
+    </div>
+    <!-- end gallery -->
     </div>
     <!--   end container -->
     <div class="gamma-features">
@@ -117,7 +93,6 @@
             </div>
         </div>
     </div>
-    
     <footer>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -145,7 +120,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript " src="../bootstrap-3.3.7-dist/js/bootstrap.min.js "></script>
-
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+.hidden {
+    display: none;
+}
+
+.header h1 {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.artists-selection select,
+.albums-selection select {
+    width: 100%;
+    color: black;
+}
+
+.container .artists-selection,
+.container .albums-selection,
+.container .tracks-list {
+    padding: 10px;
+    padding-bottom: 30px;
+}

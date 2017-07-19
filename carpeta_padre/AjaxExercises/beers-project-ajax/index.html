@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/cosmo/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="form-search" class="form-search" action="" method="POST" role="form">
+                    <legend>Beers App 🍻</legend>
+                    <div class="form-group">
+                        <label for="">Beer Name</label>
+                        <input type="text" class="form-control" id="" placeholder="Type a beer to search in our catalogue..." value="heineken">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <div id="list-beers" class="hidden list-beers">
+                    <p>Select your beer from the list...</p>
+                    <select class="input-lg"></select>
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <div id="details-beer" class="hidden thumbnail details-beer">
+                  <img src="" alt="">
+                  <div class="caption">
+                    <h1>Thumbnail label</h1>
+                    <p>...</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

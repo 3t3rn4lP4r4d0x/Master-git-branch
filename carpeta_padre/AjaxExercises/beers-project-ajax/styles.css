@@ -1,0 +1,18 @@
+.form-search,
+.list-beers,
+.details-beer {
+  margin-top: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.list-beers select {
+  color: black;
+}
+
+.details-beer img {
+  border: 1px solid black;
+  width:100%;
+}
